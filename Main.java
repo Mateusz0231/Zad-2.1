@@ -3,9 +3,8 @@ class Main
 {
   public static void main(String[] args) 
   {
-        Scanner ch = new Scanner(System.in);
-        System.out.println("Podaj wysokosc choinki");
-        int wys = ch.nextInt();
+        
+        int wys = 5;
         for (int i = 1; i<=wys; i++)
         {
             for(int j=0;j<wys-i;j++);
